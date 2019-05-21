@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LogonComponent } from './logon/logon.component';
+import { ChatComponent } from './chat/chat.component';
+import { ChatHistoryComponent } from './chat-history/chat-history.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogonComponent,
+    ChatComponent,
+    ChatHistoryComponent
   ],
   imports: [
     BrowserModule,
